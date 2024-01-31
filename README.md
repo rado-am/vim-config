@@ -13,3 +13,4 @@ git clone https://github.com/rado-am/NanoVim.git ~/.config/nvim
 | Space + a | Select all |
 | Space + z | Undo changes |
 | Space + c | Copy to clipboard |
+| Space + s | Save file |
