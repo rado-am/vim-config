@@ -32,7 +32,7 @@ return {
           "vuels",
           "lemminx",
           "yamlls",
-          "marksman"
+          "marksman",
         },
       }
     end
