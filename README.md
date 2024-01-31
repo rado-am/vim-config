@@ -14,3 +14,6 @@ git clone https://github.com/rado-am/NanoVim.git ~/.config/nvim
 | Space + z | Undo changes |
 | Space + c | Copy to clipboard |
 | Space + s | Save file |
+| Ctrl + p | Lists files in your current working directory |
+| Ctrl + g | Fuzzy search through the output of git ls-files command |
+| Space + f + g | Search for a string in your current working directory | 
