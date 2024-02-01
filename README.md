@@ -10,7 +10,7 @@ git clone https://github.com/rado-am/NanoVim.git ~/.config/nvim
 ## Shortcuts
 | Key | Description |
 | ------ | ------ |
-| Space + a | Select all |
+| Ctrl + a | Select all text in file |
 | Space + z | Undo changes |
 | Space + c | Copy to clipboard |
 | Space + s | Save file |
