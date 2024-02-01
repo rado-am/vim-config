@@ -11,4 +11,8 @@ keymap.set("n", "<C-d>", ":t.<CR>")
 keymap.set("i", "<C-d>", "<Esc>:t.<CR>i")
 
 -- Map Ctrl + c to copy selected text to system clipboard
-keymap.set('x', '<C-c>', '"+y')
+keymap.set("x", "<C-c>", '"+y')
+
+-- Map j & k to move lines up and down
+keymap.set("v", "j", ":m '>+1<CR>gv=gv")
+keymap.set("v", "k", ":m '<-2<CR>gv-gv")
