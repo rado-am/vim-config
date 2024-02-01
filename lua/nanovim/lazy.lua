@@ -1,1 +1,1 @@
-print("helo fron lazy")
+print("Hello from lazy")
