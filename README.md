@@ -11,7 +11,7 @@ git clone https://github.com/rado-am/NanoVim.git ~/.config/nvim
 | Key | Description |
 | ------ | ------ |
 | Ctrl + a | Select all text in file |
-| Space + z | Undo changes |
+| Ctrl + d | Duplicate line |
 | Space + c | Copy to clipboard |
 | Space + s | Save file |
 | Ctrl + p | Lists files in your current working directory |
