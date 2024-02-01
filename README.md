@@ -18,7 +18,7 @@ git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 | ------ | ------ |
 | Ctrl + a | Select all text in file |
 | Ctrl + d | Duplicate line |
-| Ctrl + c | Copy to system clipboard |
+| Ctrl + c | Copy selected text to system clipboard |
 | Space + s | Save file |
 | Ctrl + p | Lists files in your current working directory |
 | Ctrl + g | Fuzzy search through the output of git ls-files command |
