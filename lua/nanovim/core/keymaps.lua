@@ -9,3 +9,6 @@ keymap.set("i", "<C-a>", "<Esc>ggVG")
 -- Map Ctrl + d to duplicate line in normal & instert mode
 keymap.set("n", "<C-d>", ":t.<CR>")
 keymap.set("i", "<C-d>", "<Esc>:t.<CR>i")
+
+-- Map Ctrl + c to copy selected text to system clipboard
+keymap.set('x', '<C-c>', '"+y')
