@@ -45,7 +45,7 @@ return {
         "styled",
         "svelte",
         "terraform",
-        "typescript",
+        "tsx",
         "vue",
         "xml",
         "yaml",
