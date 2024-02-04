@@ -49,6 +49,8 @@ return {
         "vue",
         "xml",
         "yaml",
+        "vim",
+        "vimdoc"
       },
     })
   end
