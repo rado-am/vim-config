@@ -25,4 +25,4 @@ opt.termguicolors = true
 opt.scrolloff = 10
 
 -- Rest
-opt.updatetime = 50
+opt.updatetime = 50 
