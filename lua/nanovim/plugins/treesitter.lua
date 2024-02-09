@@ -3,7 +3,6 @@ return {
   build = ":TSUpdate",
   dependencies = {
     "windwp/nvim-ts-autotag",
-    "windwp/nvim-autopairs"
   },
   config = function()
     local treesitter = require("nvim-treesitter.configs")
