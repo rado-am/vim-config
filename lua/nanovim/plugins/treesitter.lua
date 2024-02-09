@@ -12,7 +12,6 @@ return {
       highlight = { enable = true },
       indent = { enable = true },
       autotag = { enable = true },
-      autopairs = { enable = true },
       ensure_installed = {
         "angular",
         "bash",
