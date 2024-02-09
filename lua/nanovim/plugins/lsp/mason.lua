@@ -17,7 +17,31 @@ return {
     require("mason-lspconfig").setup({
       ensure_installed = {
         "lua_ls",
-        "rust_analyzer"
+        "rust_analyzer",
+        "tsserver",
+        "html",
+        "svelte",
+        "vuels",
+        "cssls",
+        "bashls",
+        "prismals",
+        "vimls",
+        "lemminx",
+        "clangd",
+        "docker_compose_language_service",
+        "dockerls",
+        "graphql",
+        "tailwindcss",
+        "elixirls",
+        "kotlin_language_server",
+        "marksman",
+        "jdtls",
+        "sqls",
+        "gopls",
+        "csharp_ls",
+        "elp",
+        "ruby_ls",
+        "yamlls",
       },
     })
   end

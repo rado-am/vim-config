@@ -25,6 +25,9 @@ git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 | Ctrl + Shift + p | Fuzzy search through the all files include node_modules |
 | Ctrl + b | Toggle file explorer |
 | Ctrl + n | Focus file explorer |
+| Ctrl + Enter | Show code action manu |
+| Shift + K | Show docs |
+| gd | Go to definition |
 
 ## FAQ
 1. If you have an error `fzf extension doesn't exist or isn't installed` go to this directory

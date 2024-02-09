@@ -28,7 +28,6 @@ return {
         "http",
         "java",
         "javascript",
-        "jq",
         "jsdoc",
         "json",
         "kotlin",
