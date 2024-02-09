@@ -29,7 +29,7 @@ return {
     -- Show and focus neo-tree after start
     require("neo-tree.sources.manager").focus("filesystem")
 
-    vim.keymap.set("n", "<C-n>", ":Neotree focus<CR>", {})
+    vim.keymap.set("n", "<C-n>", ":Neotree last reveal left<CR>", {})
     vim.keymap.set("n", "<C-b>", ":Neotree toggle<CR>", {})
   end
 }
