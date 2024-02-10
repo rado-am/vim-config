@@ -13,7 +13,7 @@ return {
     telescope.setup({
       extensions = {
         ["ui-select"] = {
-          themes.get_dropdown({}),
+          themes.get_cursor({}),
         },
       },
     })
