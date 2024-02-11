@@ -2,7 +2,7 @@ return {
   "williamboman/mason.nvim",
   dependencies = {
     "williamboman/mason-lspconfig.nvim",
-    "jay-babu/mason-null-ls.nvim"
+    "jay-babu/mason-null-ls.nvim",
   },
   config = function()
     require("mason").setup({
@@ -10,9 +10,9 @@ return {
         icons = {
           package_installed = "✓",
           package_pending = "➜",
-          package_uninstalled = "✗"
-        }
-      }
+          package_uninstalled = "✗",
+        },
+      },
     })
 
     require("mason-lspconfig").setup({
@@ -40,8 +40,18 @@ return {
 
     require("mason-null-ls").setup({
       ensure_installed = {
-        "stylua"
-      }
+        "stylua",
+        "prettierd",
+        "eslint_d",
+        "rustfmt",
+        "beautysh",
+        "vint",
+        "hadolint",
+        "rustywind",
+        "actionlint",
+        "sqlfluff",
+        "luacheck"
+      },
     })
-  end
+  end,
 }
