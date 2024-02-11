@@ -31,7 +31,7 @@ return {
     lspconfig.yamlls.setup({})
 
     vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
-    vim.keymap.set({ 'n', 'v' }, '<C-Enter>', vim.lsp.buf.code_action, {})
+    vim.keymap.set('n', 'D', vim.lsp.buf.definition, {})
+    vim.keymap.set({ 'n', 'v', 'i' }, '<C-Enter>', vim.lsp.buf.code_action, {})
   end
 }

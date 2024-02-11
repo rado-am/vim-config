@@ -1,7 +1,8 @@
 return {
   "williamboman/mason.nvim",
   dependencies = {
-    "williamboman/mason-lspconfig.nvim"
+    "williamboman/mason-lspconfig.nvim",
+    "jay-babu/mason-null-ls.nvim"
   },
   config = function()
     require("mason").setup({
@@ -43,6 +44,12 @@ return {
         "ruby_ls",
         "yamlls",
       },
+    })
+
+    require("mason-null-ls").setup({
+      ensure_installed = {
+        "stylua"
+      }
     })
   end
 }
