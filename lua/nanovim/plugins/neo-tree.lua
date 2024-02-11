@@ -1,35 +1,40 @@
 return {
-  "nvim-neo-tree/neo-tree.nvim",
-  branch = "v3.x",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons",
-    "MunifTanjim/nui.nvim",
-  },
-  config = function()
-    require("neo-tree").setup({
-      filesystem = {
-        filtered_items = {
-          hide_gitignored = false,
-          hide_dotfiles = false,
-          hide_by_name = {
-            ".git",
-          }
-        },
-        follow_current_file = {
-          enabled = true,
-        },
-      },
-      source_selector = {
-        winbar = true,
-        statusline = true
-      },
-    })
+	"nvim-neo-tree/neo-tree.nvim",
+	branch = "v3.x",
+	dependencies = {
+		"nvim-lua/plenary.nvim",
+		"nvim-tree/nvim-web-devicons",
+		"MunifTanjim/nui.nvim",
+	},
+	config = function()
+		local neo_tree = require("neo-tree")
+		local sources_manager = require("neo-tree.sources.manager")
 
-    -- Show and focus neo-tree after start
-    require("neo-tree.sources.manager").focus("filesystem")
+		local keymap = vim.keymap
 
-    vim.keymap.set("n", "<C-n>", ":Neotree last reveal left<CR>", {})
-    vim.keymap.set("n", "<C-b>", ":Neotree toggle<CR>", {})
-  end
+		neo_tree.setup({
+			filesystem = {
+				filtered_items = {
+					hide_gitignored = false,
+					hide_dotfiles = false,
+					hide_by_name = {
+						".git",
+					},
+				},
+				follow_current_file = {
+					enabled = true,
+				},
+			},
+			source_selector = {
+				winbar = true,
+				statusline = true,
+			},
+		})
+
+		-- Show and focus neo-tree after start
+		sources_manager.focus("filesystem")
+
+		keymap.set("n", "<C-n>", ":Neotree last reveal left<CR>", {})
+		keymap.set("n", "<C-b>", ":Neotree toggle<CR>", {})
+	end,
 }
