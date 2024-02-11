@@ -16,7 +16,7 @@ For Windows
 git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 ```
 
-## Shortcuts
+## ⌨️ Shortcuts
 
 | Key              | Description                                             |
 | ---------------- | ------------------------------------------------------- |
