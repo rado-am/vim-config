@@ -32,6 +32,7 @@ git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 | Shift + K        | Show docs                                               |
 | Shift + D        | Go to definition                                        |
 | Option + Enter   | Auto format file                                        |
+| Shift + E        | Open diagnostic                                         |
 
 ## FAQ
 
