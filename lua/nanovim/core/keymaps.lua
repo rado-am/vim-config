@@ -3,7 +3,7 @@ local general_mappings = require("nanovim.settings.mappings").general
 
 vim.g.mapleader = " " -- set leader key to space
 
-for _, mapping in pairs(general_mappings) do
+for _, mapping in ipairs(general_mappings) do
   keymap.set(mapping.mode, mapping.key, mapping.command)
 end
 
