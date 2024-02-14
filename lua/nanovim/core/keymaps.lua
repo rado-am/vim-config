@@ -1,6 +1,11 @@
 local keymap = vim.keymap
+local general_mappings = require("nanovim.settings.mappings").general
 
 vim.g.mapleader = " " -- set leader key to space
+
+for _, mapping in pairs(general_mappings) do
+  keymap.set(mapping.mode, mapping.key, mapping.command)
+end
 
 -- Map Ctrl + a to select all text in normal & insert mode
 keymap.set("n", "<C-a>", "ggVG")
