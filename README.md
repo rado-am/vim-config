@@ -16,7 +16,15 @@ For Windows
 git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 ```
 
-## ⌨️ Shortcuts
+## ⌨️ Mappings
+
+- default leader <space>
+- default localleader <space>
+
+### General
+
+| Shortcut | Mode | Action |
+| -------- | ---- | ------ |
 
 | Key              | Description                                             |
 | ---------------- | ------------------------------------------------------- |
