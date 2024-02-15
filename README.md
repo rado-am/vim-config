@@ -18,8 +18,8 @@ git clone https://github.com/rado-am/NanoVim.git ~/AppData/Local/nvim/
 
 ## ⌨️ Mappings
 
-- default leader <space>
-- default localleader <space>
+- default leader `<space>`
+- default localleader `<space>`
 
 ### General
 
